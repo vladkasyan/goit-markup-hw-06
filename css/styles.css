@@ -396,6 +396,7 @@ color: var(--customer-icons-color);
   width: 360px;
   height: 120px;
   margin-top: 8px;
+  resize: none;
 }
 
 .modal-comment-input::placeholder {
@@ -747,6 +748,7 @@ justify-content: center;
 .footer-form-text {
  display: flex;
  align-items: flex-end;
+ margin-top: 16px;
 }
 
 
@@ -759,7 +761,6 @@ justify-content: center;
 .footer-input {
   width: 264px;
   height: 40px;
-  margin-top: 16px;
   background-color: transparent;
   padding-left: 16px;
   color: var(--white-color);
